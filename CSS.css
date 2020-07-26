@@ -1,0 +1,30 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+div {
+  position:relative;
+  z-index: 2;
+}
+
+body {
+  background-color: #333;
+  color: #333;
+  font-family: 'Piedra', cursive;;
+  font-weight:400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+html{
+	background-color:black;
+}
+#quote-box{
+	text-align:center;
+	background : linear-gradient(180deg,hotpink,white);
+}
